@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang ="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Maxwell Oberbrunner</title>
+        <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajx/libs/normalize/7.0.0/normalize.min.css">
+        <link rel="stylesheet" 
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" 
+        integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
+       
+        <!-- Update these with  -->
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans
+        +Pro:300,900&display=swap" rel="stylesheet">
+
+        <script src="https://kit.fontawesome.com/f54595b7cd.js" crossorigin="anonymous"></script>
+        
+        <link rel="stylesheet" href="css/style.css"/>
+
+
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+                <img src="imgs/logofinal.png" alt="Max Oberbrunner">
+            </div>
+            <button class="navigation" aria-label="Enter Navigation">  
+                <span class="hamburger"></span>
+            </button>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About Me</a></li>
+                    <li class="nav__item"><a href="#experience" class="nav__link">My Experience</a></li>
+                    <li class="nav__item"><a href="#work" class="nav__link">My Skills</a></li>
+                    <li class="nav__item"><a href="#foot" class="nav__link">Contact Me</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- Introduction -->
+        <section class="intro" id="home">
+            <h1 class="section__title section__title--intro">
+                Hello! I am <strong>Maxwell Oberbrunner</strong>
+            </h1>
+            <p class="section__subtitle section__subtitle--intro">University of Wisconsin-Madison</p>
+            <img src="imgs/IMG_7897.JPG" alt="" class="intro__img"> <!--(linkedin photo probably)-->
+        </section>
+
+        <!-- About Me -->
+        <section class="about-me" id="about">
+            <h2 class="section__title section__title--about">Who I am</h2>
+            <p class="section__subtitle section__subtitle--about">Computer Science '25</p>
+
+            <div class="about-me__body">
+                <p>I was born and raised in Appleton, WI, where I fell in love with any bit of technology I could find.   </p>
+                <p>I'm currently studying Computer Science & Data Science at University of Wisconsin-Madison, where I expect to graduate May of 2025. There, I pride myself upon being a coach and mentor to my fellow students; whether it's through projects, leading hackathons, or even helping teach CS200.</p>
+                <p>I'm always available to chat about technology, computer science, or future opportunities. Below, you will find an updated list of my past positions and current toolkit. Looking forward to hearing from you!</p>
+                
+            </div>
+
+            <img src="imgs/Wisconsin_Badgers_logo.svg.png" alt="" class="about-me__img"> <!--I DONT KNOW-->
+        </section>
+        
+        <!-- My Experience -->
+        <section class="my-experience" id="experience">
+            <h2 class="section__title section__title--experience">Experience</h2>
+            <div class="experiences">
+                <div class="experience">
+                    <h3>CS 200 Peer Mentor</h3>
+                    <p class="section__subtitle">University of Wisconsin-Madison</p>
+                    <p></p>
+                </div>
+                
+                <div class="experience">
+                    <h3>Community Outreach/Engagement Lead</h3>
+                    <p class="section__subtitle">Google Student Developers @ UW-Madison</p>
+                    <p></p>
+                </div>
+                
+                <!-- <div class="experience">
+                    <h3></h3>
+                    <p></p>
+                </div>-->
+            </div>
+        </section>
+
+        <!-- My Work -->
+        <section class="my-work" id="work">
+            <h2 class="section__title">My Skills</h2>
+            <p class="section__subtitle"></p>
+
+            <!--<div class="portfolio">
+                <div class="portfolio__item">
+                    <h3>Java</h3>
+                </div>
+            </div>-->
+
+            <div class="row">
+                <div class="column">
+                  <h3>Java</h3>
+
+                </div>
+                <div class="column">
+                  <h3>Python</h3>
+                </div>
+              </div>
+              
+              <div class="row">
+                <div class="column">
+                  <h3>HTML</h3>
+                </div>
+                <div class="column">
+                  <h3>CSS</h3>
+                </div>
+              </div> 
+
+              <div class="row">
+                <div class="column">
+                  <h3>JavaScript</h3>
+                </div>
+                <div class="column">
+                  <h3>R</h3>
+                </div>
+              </div> 
+
+              <div class="row">
+                <div class="column">
+                  <h3>Eclipse</h3>
+                </div>
+                <div class="column">
+                  <h3>Visual Studio</h3>
+                </div>
+              </div> 
+
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer" id="foot">
+            <ul class="social-list">
+                <li class="social-list__item">
+                    <a class="social-list__link" href="mailto:moberbrunner@wisc.edu">
+                        <i class="fa-solid fa-envelope fa-2x"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://github.com/MaxObes">
+                        <i class="fa-brands fa-github fa-2x"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://www.linkedin.com/in/maxwell-oberbrunner-2692b4233">
+                        <i class="fa-brands fa-linkedin fa-2x"></i>
+                    </a>
+                </li>
+            </ul>
+        </footer>
+
+        <script src="js/index.js"></script>
+
+    </body>
+</html>
